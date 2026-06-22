@@ -1,8 +1,8 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
-; Check every 60 secs (60,000 milliseconds)
-SetTimer(SaveActivePaintOnly, 60000)
+; Check every 100 secs (100,000 milliseconds)
+SetTimer(SaveActivePaintOnly, 100000)
 
 SaveActivePaintOnly() {
     ; 1. Check if MS Paint is the active window using the executable name
